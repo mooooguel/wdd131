@@ -1,48 +1,69 @@
-<nav>
-    <ul class="navigation wrap">
-        <li><a href="#" title="Home">Home</a></li>
-        <li><a href="#" title="About Us">Projects</a></li>
-        <li><a href="#" title="Our Partners">Services</a></li>
-        <li><a href="#" title="Contact Us">Contact Us</a></li>
-    </ul>
-</nav>
-
-
-<nav class="navigation modern">
-    <a href="#" title="Home">Home</a>
-    <a href="#" title="Projects">Projects</a>
-    <a href="#" title="Services">Services</a>
-    <a href="#" title="Contact Us">Contact Us</a>
-</nav>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Watson WDD131</title>
-    <link rel="stylesheet" href="styles/layout.css">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals by Michael Watson">
+    <meta name="author" content="Michael Watson">
+    <title>WDD 131 - Dynamic Web Fundamentals - Michael Watson</title>
+    <link rel="stylesheet" href="styles/practice.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
+    <!-- Header Section -->
     <header>
-        <h1 contenteditable>Header</h1>
+        <h1>WDD 131: Dynamic Web Fundamentals - Michael Watson</h1>
         <nav>
-            <ul class="navigation wrap">
-                <li><a href="#" title="Home">Home</a></li>
-                <li><a href="#" title="About Us">Projects</a></li>
-                <li><a href="#" title="Our Partners">Services</a></li>
-                <li><a href="#" title="Contact Us">Contact Us</a></li>
-            </ul>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="https://byui.instructure.com/">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/11?lang=eng"
+                title="Scripture">Scripture</a>
+            <a href="#finalProject">Final Project</a>
         </nav>
     </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="aboutMe">
+                <p>My name is Michael. I am from Arizona but I currently live in Utah where I recently was engaged to
+                    the
+                    love of my life Sydney.</p>
+                <img src="images/michaelandsyd.jpg" alt="Photo of Michael and Sydney" class="profile-image">
+            </div>
+
+            <div class="arizona">
+                <h3>Gilbert, Arizona</h3>
+                <div class="arizonaDetails">
+                    <img src="images/arizona.jpg" alt="arizona picture" class="imageLocation">
+                    <p>Gilbert, Arizona is known for its competitive high school football programs and large population
+                        of the Church of Jesus Christ of Latter-Day Saints. It is very close to ASU campus so there are
+                        many students and families that live in Gilbert.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© <span id="currentyear"></span> Michael Watson, United States</p>
+        <p id="lastModified">Last Modified: </p>
+    </footer>
 </body>
 
-<div class="main-content" contenteditable>Main Content</div>
-<div class="aside" contenteditable>Aside Content</div>
+</html>
 
-<footer contenteditable>Footer Content</footer>
 
 </html>
