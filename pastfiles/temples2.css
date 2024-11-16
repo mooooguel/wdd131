@@ -1,0 +1,72 @@
+body {
+    max-width: 100%; /* Ensure the content takes up full width */
+    margin: 0; /* Remove default body margin */
+    padding: 1rem; /* Add spacing for content */
+    background-color: rgb(46, 46, 46);
+    font-size: 1rem; /* Ensure text is readable */
+}
+
+header {
+    flex-direction: column; /* Stack header items vertically */
+    text-align: center; /* Center-align the header content */
+    padding: 1rem; /* Add spacing */
+    border-bottom: 2px solid rgb(88, 155, 255); /* Keep the border visible */
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column; /* Stack navigation links vertically */
+    padding: 0;
+    margin: 1rem 0; /* Add spacing between navigation and other sections */
+}
+
+nav a {
+    text-align: center; /* Center-align navigation links */
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 100%; /* Allow the main content to span the full screen width */
+    margin: 1rem auto; /* Center content vertically with spacing */
+    padding: 1rem;
+    background-color: white; /* Optional for better readability */
+    display: flex;
+    flex-direction: column; /* Ensure figures are displayed vertically */
+    align-items: center; /* Center-align content horizontally */
+}
+
+figure {
+    margin-bottom: 1rem; /* Add spacing between figures */
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem; /* Slightly smaller text for footer */
+}
+
+/* Tablet and larger screens (when width is 740px or more) */
+@media (min-width: 740px) {
+    header {
+        flex-direction: row; /* Switch to horizontal layout for header */
+        justify-content: space-between; /* Spread items across the header */
+    }
+
+    nav ul {
+        flex-direction: row; /* Navigation links arranged horizontally */
+        justify-content: center; /* Center navigation links */
+    }
+
+    main {
+        max-width: 960px; /* Restrict content width for larger screens */
+        flex-direction: row; /* Use a grid-like layout if needed */
+        flex-wrap: wrap; /* Allow wrapping for figures */
+    }
+
+    figure {
+        flex: 1 1 calc(33.333% - 1rem); /* Adjust figures to fit in 3-column grid */
+        margin: 0.5rem; /* Add spacing between figures */
+    }
+}

@@ -1,0 +1,19 @@
+@media (min-width: 740px) {
+    #menu {
+        display: none;
+        /* Hide hamburger menu */
+    }
+
+    nav ul {
+        display: flex;
+        /* Always show navigation in horizontal layout */
+        flex-direction: row;
+        justify-content: flex-end;
+        background: none;
+        padding: 0;
+    }
+
+    nav a {
+        border: none;
+    }
+}
