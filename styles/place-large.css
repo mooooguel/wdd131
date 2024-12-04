@@ -7,9 +7,7 @@
 
     figure {
         position: relative;
-        /* Ensure figure is a positioned parent for z-index */
         z-index: 1;
-        /* This places the image below other elements */
     }
 
     .heroImage img {
@@ -23,31 +21,23 @@
     .data,
     .weather {
         position: absolute;
-        /* Position relative to the nearest positioned ancestor (main) */
         background-color: white;
         opacity: 0.85;
-        /* Make them semi-transparent */
         color: black;
         border-radius: 20px;
         padding: 2rem;
         margin: 0;
-        z-index: 2;
-        /* Ensure these elements are above the hero image */
     }
 
     .data {
         top: 20%;
-        /* Position it over the top part of the hero image */
         left: 10%;
-        /* Slightly offset from the left */
         width: 30%;
     }
 
     .weather {
         top: 20%;
-        /* Align it at the same level as data */
         right: 10%;
-        /* Align it to the right */
         width: 30%;
     }
 

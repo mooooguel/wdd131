@@ -3,11 +3,6 @@
     --korea-blue: #0047A0;
 }
 
-
-
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -29,17 +24,10 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-
-
-
-
 main {
     position: relative;
     background-color: var(--korea-blue);
 }
-
-
-
 
 header {
     text-align: center;
@@ -49,23 +37,24 @@ header {
     border-bottom: 10px solid var(--korea-red);
 }
 
-
-
-
-
 footer {
     padding: 1rem;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: var(--korea-blue);
     text-align: center;
     border-top: 10px solid var(--korea-red);
 }
 
-
-.data, .weather {
+.data,
+.weather {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
     text-align: center;
-    margin-bottom: 2rem;
-    width: auto;
+    z-index: 10;
 }
 
 .weather h2::after {
@@ -74,7 +63,6 @@ footer {
     width: 15%;
     margin: auto;
 }
-
 
 .icon-img {
     display: block;
@@ -87,14 +75,67 @@ footer {
     margin-top: 0.5rem;
 }
 
-.heroImage img{
-    margin: auto;
-    width: 100%;
-    height: 100%;
+.heroImage {
+    position: relative;
 }
 
 
+.heroImage img {
+    width: 100%;
+    height: 75%;
+}
+
+.data {
+    top: 20%;
+    left: 7%;
+
+}
+
+.weather {
+    top: 40%;
+    right: 7%;
+}
 
 .pad {
     padding-bottom: 1rem;
+}
+
+
+@media (max-width: 600px) {
+
+    main {
+        position: relative;
+        padding: 1rem;
+    }
+
+    .data,
+    .weather {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.85);
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .data {
+        margin-top: 15px;
+    }
+
+    .weather {
+        margin-top: 15px;
+    }
+
+    .heroImage img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
 }
