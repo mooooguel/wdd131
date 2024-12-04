@@ -57,6 +57,11 @@ footer {
     z-index: 10;
 }
 
+.weather h2::after {
+    display: block;
+    width: 15%;
+    margin: auto;
+}
 
 .icon-img {
     display: block;
