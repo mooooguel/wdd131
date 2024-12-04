@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Week03 - Responsive Images: srcset - Cliff Cummings">
+    <meta name="author" content="Cliff Cummings">
+    <meta name="keywords" content="Cliff, Cummings">
+
+    <link rel="stylesheet" href="styles/responsive-images.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <title>Responsive Images</title>
+</head>
+
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <img src="images/hero-small-500w.webp.png" alt="Orem Utah Temple" width="400" height="200">
+                <source srcset="images/hero-medium-1000w.webp.png" media="min-width: 550px">
+                <source srcset="images/hero-large-1500w.webp.png" media="min-width: 1000px">
+            </picture>
+        </div>
+    </main>
+
+</body>
+
+</html>
