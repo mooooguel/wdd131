@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+
+
+
+
+img {
+    display: block;
+    max-width: 400px;
+    height: 600px;
+    margin: auto;
+    background-color: black;
+    animation: fade 10s;
+}
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
+
+}
