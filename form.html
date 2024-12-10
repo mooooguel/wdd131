@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131: Dynamic Web Fundamentals - Michael Watson</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Michael Watson">
+    <meta name="author" content="Michael Watson">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="#">
+    <script src="#" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="top">
+            <h1>Product Review</h1>
+
+        </div>
+        
+    </header>
+
+    <main>
+        <form method="get" action="action.html"></form>
+        <fieldset>
+            <label>Product Name
+                <select name="productName">
+                    <option value="" disabled selected>Please Select</option>
+                    <option value="microwave">Microwave</option>
+                    <option value="oven">Oven</option>
+                    <option value="washer">Washer</option>
+                    <option value="dryer">Dryer</option>
+                    <option value="dishwasher">Dishwasher</option>
+                </select>
+            </label>
+
+            <h2>Overall Rating</h2>
+            <div class="stars">
+                <label><input type="radio" name="star" value="1star">☆</label>
+                <label><input type="radio" name="star" value="2star">☆☆</label>
+                <label><input type="radio" name="star" value="3star">☆☆☆</label>
+                <label><input type="radio" name="star" value="4star">☆☆☆☆</label>
+                <label><input type="radio" name="star" value="5star">☆☆☆☆☆</label>
+            </div>
+
+            <div>
+                <label>Date of Installation<input type="date" name="completeDate"></label>
+            </div>
+
+            <h2>Features</h2>
+            <div class="features">
+                <label><input type="checkbox" name="durability" value="yes">Durability</label>
+                <label><input type="checkbox" name="ease" value="yes">Ease of Use</label>
+                <label><input type="checkbox" name="performance" value="yes">Performance</label>
+                <label><input type="checkbox" name="design" value="yes">Design</label>
+            </div>
+
+
+        </fieldset>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Michael Watson - United States</p>
+        <p id="lastModified">Last Modification: <span></span></p>
+    </footer>
+
+
+</body>
+
+</html>
