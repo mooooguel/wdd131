@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="f1b7ffb7-ca1e-a977-7cf5-a751b3c06c05">
+    <mxGraphModel dx="1224" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="13" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="120" width="800" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="mooooguel&#39;s Game Design Portfolio&#xa;" style="text;spacingTop=-5;fontSize=18;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="70" y="30" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="line;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="20" y="60" width="780" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="line;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="20" y="90" width="780" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Home" style="text;spacingTop=-5;" parent="1" vertex="1">
+          <mxGeometry x="230" y="70.00000000000009" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="About Me" style="text;spacingTop=-5;" parent="1" vertex="1">
+          <mxGeometry x="299.99999999999994" y="70.00000000000016" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Personal Info" style="text;spacingTop=-5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="120" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&#xa;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?" style="text;spacingTop=-5;whiteSpace=wrap;align=left" parent="1" vertex="1">
+          <mxGeometry x="130" y="140" width="530" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="Education" style="text;spacingTop=-5;" parent="1" vertex="1">
+          <mxGeometry x="400" y="70.00000000000026" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Projects" style="text;spacingTop=-5;" parent="1" vertex="1">
+          <mxGeometry x="550" y="70.00000000000003" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" parent="1" vertex="1">
+          <mxGeometry x="227.5" y="370" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="Personal Picture" style="text;spacingTop=-5;align=center;verticalAlign=middle;fontSize=36;fontColor=#CCCCCC" parent="1" vertex="1">
+          <mxGeometry x="215" y="380" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="615" width="800" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="Image Gallery" style="text;spacingTop=-5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="620" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="670" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="Article&#xa;Picture" style="text;spacingTop=-5;align=center;verticalAlign=middle;fontSize=36;fontColor=#CCCCCC" parent="1" vertex="1">
+          <mxGeometry x="40" y="660" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.misc.rating;strokeColor=#999999;fillColor=#ffff00;emptyFillColor=#ffffff;grade=4;ratingScale=5;ratingStyle=star;" parent="1" vertex="1">
+          <mxGeometry x="509.99999999999994" y="1085" width="77.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="Rate this article" style="text;spacingTop=-5;" parent="1" vertex="1">
+          <mxGeometry x="410.00000000000006" y="1080" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="Tags: Tag1 Tag2 Tag3 Tag4" style="text;spacingTop=-5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="1080" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vLaDI1O3VLeMF0Oga_JE-64" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" vertex="1" parent="1">
+          <mxGeometry x="233" y="880" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vLaDI1O3VLeMF0Oga_JE-65" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="670" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vLaDI1O3VLeMF0Oga_JE-66" value="Article&#xa;Picture" style="text;spacingTop=-5;align=center;verticalAlign=middle;fontSize=36;fontColor=#CCCCCC" vertex="1" parent="1">
+          <mxGeometry x="450" y="660" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vLaDI1O3VLeMF0Oga_JE-67" value="Article&#xa;Picture" style="text;spacingTop=-5;align=center;verticalAlign=middle;fontSize=36;fontColor=#CCCCCC" vertex="1" parent="1">
+          <mxGeometry x="233" y="880" width="360" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

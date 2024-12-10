@@ -1,0 +1,22 @@
+:root {
+    --back-color-light: rgb(238, 224, 232);
+    --back-color-dark: rgb(134, 37, 91);
+
+}
+
+
+* {
+    background-color: var(--back-color-light);
+}
+
+h1 {
+    background-color: var(--back-color-dark);
+    color: white;
+}
+
+
+
+img {
+    max-width: 500px;
+    height: 600px;
+}
