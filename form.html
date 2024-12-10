@@ -10,57 +10,62 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="#">
-    <script src="#" defer></script>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
 </head>
 
 <body>
 
     <header>
-        <div class="top">
-            <h1>Product Review</h1>
-
-        </div>
-        
+        <h1>Product Review</h1>
     </header>
 
     <main>
         <form method="get" action="action.html"></form>
         <fieldset>
             <label>Product Name
-                <select name="productName">
-                    <option value="" disabled selected>Please Select</option>
-                    <option value="microwave">Microwave</option>
-                    <option value="oven">Oven</option>
-                    <option value="washer">Washer</option>
-                    <option value="dryer">Dryer</option>
-                    <option value="dishwasher">Dishwasher</option>
-                </select>
-            </label>
+                <section id="productName">
+                    <select name="prodName" id="prodName" required>
+                        <option value="" disabled selected>Choose a Product</option>
+                    </select>
+                </section>
 
-            <h2>Overall Rating</h2>
-            <div class="stars">
-                <label><input type="radio" name="star" value="1star">☆</label>
-                <label><input type="radio" name="star" value="2star">☆☆</label>
-                <label><input type="radio" name="star" value="3star">☆☆☆</label>
-                <label><input type="radio" name="star" value="4star">☆☆☆☆</label>
-                <label><input type="radio" name="star" value="5star">☆☆☆☆☆</label>
-            </div>
 
-            <div>
-                <label>Date of Installation<input type="date" name="completeDate"></label>
-            </div>
+                <div class="stars">Overall Rating
+                    <label><input type="radio" name="star" value="1star">☆</label>
+                    <label><input type="radio" name="star" value="2star">☆☆</label>
+                    <label><input type="radio" name="star" value="3star">☆☆☆</label>
+                    <label><input type="radio" name="star" value="4star">☆☆☆☆</label>
+                    <label><input type="radio" name="star" value="5star">☆☆☆☆☆</label>
+                </div>
 
-            <h2>Features</h2>
-            <div class="features">
-                <label><input type="checkbox" name="durability" value="yes">Durability</label>
-                <label><input type="checkbox" name="ease" value="yes">Ease of Use</label>
-                <label><input type="checkbox" name="performance" value="yes">Performance</label>
-                <label><input type="checkbox" name="design" value="yes">Design</label>
-            </div>
+                <div class="installation">
+                    <p>Date of Installation</p>
+                    <label><input type="date" name="completeDate"></label>
+                </div>
+
+
+                <div class="features">
+                    <p>Which features did you find useful about the product?</p>
+                    <label><input type="checkbox" name="durability" value="yes">Durability</label>
+                    <label><input type="checkbox" name="ease" value="yes">Ease of Use</label>
+                    <label><input type="checkbox" name="performance" value="yes">Performance</label>
+                    <label><input type="checkbox" name="design" value="yes">Design</label>
+                </div>
+
+                <div class="textreview">
+                    <label for="review">Written Review (optional)
+                        <textarea id="review" name="review" rows="4" placeholder=""></textarea></label>
+
+                    <label for="name">Your Name (optional)
+                        <input type="text" id="name" name="name" value=""></label>
+                </div>
+
+                <input type="submit" name="submit" id="submit" value="Post Review">
 
 
         </fieldset>
+        </form>
 
     </main>
 
