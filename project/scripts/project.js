@@ -23,34 +23,61 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
 const projectImages = [
-
 
 ]
 
+const projectList = document.getElementById("project-list");
+const favoritesList = document.getElementById("favorites-list");
+
+const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+
+function renderFavorites() {
+    favoritesList.innerHTML = "";
+    favorites.forEach(project => {
+        const favoriteItem = `
+      <li>
+        ${project.name}
+        <button class="remove-btn" data-id="${project.id}">Remove</button>
+      </li>
+    `;
+        favoritesList.innerHTML += favoriteItem;
+    });
+    document.querySelectorAll(".remove-btn").forEach(button => {
+        button.addEventListener("click", handleRemoveFavorite);
+    });
+}
+
+function handleAddFavorite(event) {
+    const projectElement = event.target.parentElement;
+    const projectId = projectElement.dataset.id;
+    const projectName = projectElement.textContent.replace("Add to Favorites", "").trim();
+
+    const isFavorite = favorites.some(project => project.id === projectId);
+    if (isFavorite) {
+        alert(`${projectName} is already in your favorites!`);
+        return;
+    }
+
+    favorites.push({ id: projectId, name: projectName });
+    localStorage.setItem("favorites", JSON.stringify(favorites));
 
 
+    renderFavorites();
+}
 
-/*
+function handleRemoveFavorite(event) {
+    const projectId = event.target.dataset.id;
 
-filteredTemples.forEach(temple => {
-    let card = document.createElement("div");
-    card.classList.add("card");
-    let name = document.createElement("h3");
-    let location = document.createElement("p");
-    let dedication = document.createElement("p");
-    let area = document.createElement("p");
-    let img = document.createElement("img");
+    const updatedFavorites = favorites.filter(project => project.id !== projectId);
+    localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
 
-    name.textContent = temple.templeName;
-    location.innerHTML = `<span class="label">Location: </span> ${temple.location}`;
-    dedication.innerHTML = `<span class="label">Dedicated:</span> ${temple.dedicated}`;
-    area.innerHTML = `<span class="label">Size:     </span> ${temple.area} sq ft`;
-    img.setAttribute("src", temple.imageUrl);
-    img.setAttribute("alt", `${temple.templeName} Temple`);
-    img.setAttribute("loading", "lazy");
-    img.setAttribute("width", "400");
-    img.setAttribute("height", "250");
+    favorites.splice(0, favorites.length, ...updatedFavorites);
+    renderFavorites();
+}
 
-    */
+document.querySelectorAll(".favorite-btn").forEach(button => {
+    button.addEventListener("click", handleAddFavorite);
+});
+
+renderFavorites();

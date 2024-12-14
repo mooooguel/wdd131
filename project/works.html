@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/project.css">
     <link rel="stylesheet" href="styles/temples-large.css">
     <script src="scripts/project.js" defer></script>
 </head>
@@ -31,12 +31,39 @@
     </header>
 
     <main>
+
+
         <div class="content">
-            <h2>Projects</h2>
-            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa magni molestiae, deserunt ex debitis aut cum amet voluptatibus illo, temporibus beatae quidem? Totam iusto nesciunt, earum labore aliquid expedita laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa magni molestiae, deserunt ex debitis aut cum amet voluptatibus illo, temporibus beatae quidem? Totam iusto nesciunt, earum labore aliquid expedita laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa magni molestiae, deserunt ex debitis aut cum amet voluptatibus illo, temporibus beatae quidem? Totam iusto nesciunt, earum labore aliquid expedita laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa magni molestiae, deserunt ex debitis aut cum amet voluptatibus illo, temporibus beatae quidem? Totam iusto nesciunt, earum labore aliquid expedita laudantium.</p>
-            <img src="images/michaelandsyd.jpg" alt="michael and syd pic">
+            <h2>My Portfolio</h2>
+            <ul id="project-list" class="project-list">
+                <li data-id="1">Harmony <button class="favorite-btn">Add to Favorites</button></li>
+                <p class="project-desc">Harmony is a project that my brother and I have been working on. It involves a
+                    player-made character that is fighting in a war when they are met with new creatures. They go about
+                    learning how to work and fight with these creatures and eventually merge. Below is a rudimentary
+                    sprite of the player in early stages of the game.</p>
+                <img src="images/soldier.webp" alt="sample soldier" loading="lazy">
+                <li data-id="2">The Life of Mine <button class="favorite-btn">Add to Favorites</button></li>
+                <p class="project-desc">This game goes through a first person story based adventure that shows insight
+                    into the life of a highschool boy named Tom. The setting is in a school and Tom's home neighborhood
+                    as he has to solve mysteries and deal with personal relationships.</p>
+                <li data-id="3">The Girl That Loves Chipotle <button class="favorite-btn">Add to Favorites</button></li>
+                <p class="project-desc">This game is more of an experience that showcases the love story between the
+                    character and 'the girl that loves Chipotle'. The goal is to emphasize the impact games can have and
+                    the art that can be seen on a screen with lines of code.</p>
+            </ul>
+
         </div>
+
+
+        <h2>Your Favorite Projects</h2>
+        <ul id="favorites-list">
+        </ul>
+
+
+
     </main>
+
+
     <footer>
         <p>&copy; <span id="currentyear"></span> Michael Watson - United States</p>
         <p id="lastModified">Last Modification: <span></span></p>
